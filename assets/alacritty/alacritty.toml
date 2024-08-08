@@ -1,0 +1,42 @@
+
+
+shell = "/bin/zsh"
+
+[font]
+normal = {family = "Hack Nerd Font", style = "Regular"}
+bold = {style = "Bold"}
+italic = {style = "Italic"}
+bold_italic = {style ="Bold Italic"}
+size = 10.0
+
+# github Alacritty Colors
+
+# Default colors
+[colors.primary]
+background = '#303030'
+foreground = '#f6f5f4'
+
+# Normal colors
+[colors.normal]
+black   = '#303030'
+red     = '#ea4a5a'
+green   = '#34d058'
+yellow  = '#ffea7f'
+blue    = '#2188ff'
+magenta = '#b392f0'
+cyan    = '#39c5cf'
+white   = '#d1d5da'
+
+# Bright colors
+[colors.bright]
+black   = '#9f9f9f'
+red     = '#f97583'
+green   = '#85e89d'
+yellow  = '#ffea7f'
+blue    = '#79b8ff'
+magenta = '#b392f0'
+cyan    = '#56d4dd'
+white   = '#fafbfc'
+
+[window]
+dimensions = {columns = 159, lines = 45}
